@@ -29,12 +29,14 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
+  object-fit: cover;
 }
 
 .user-component__avatar--sm {
   width: 60px;
   height: 60px;
   border-radius: 25px;
+  object-fit: cover;
 }
 
 .user-component__title--not-bold {
@@ -42,5 +44,13 @@
 }
 
 .user-component__column:last-child {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
