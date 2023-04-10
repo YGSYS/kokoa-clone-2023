@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,21 +24,33 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span><i class="fa-solid fa-gear fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i> Friend's Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
-    <main class="friends-screen">
-      <div class="user-component">
+    <main class="main-screen">
+      <div class="user-component user-list--lg">
+        <div class="user-component__column">
+          <img
+            src="https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-6/288254494_572489184248697_1127704317464671749_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=hBkQ1V4r7p4AX_uJJKF&_nc_ht=scontent-ssn1-1.xx&oh=00_AfBWGkFAf97I1uEXNtMkt9xExv6kt95hoItO-1DGWYY9MQ&oe=643A4265"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Drake</h4>
+            <h6 class="user-component__subtitle">Hello Homie :)</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:24</span>
+          <div class="badge">5</div>
+        </div>
+      </div>
+      <div class="user-component user-list--lg">
         <div class="user-component__column">
           <img
             src="https://media.licdn.com/dms/image/C5103AQHSoaxC3fnBSA/profile-displayphoto-shrink_800_800/0/1580449242333?e=1686182400&v=beta&t=afQnj9jBLHvAnEkF7pmIxc2UyRZyawp6O1RErFUlFGs"
@@ -46,35 +58,30 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Raphael Cho</h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h6 class="user-component__subtitle">
+              Please check My Kokoa Account Info
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
         </div>
       </div>
-      <div class="user-component user-list--sm">
+      <div class="user-component user-list--lg">
         <div class="user-component__column">
           <img
-            src="https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4=w480-h960-rw"
-            class="user-component__avatar user-component__avatar--sm"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Charles-Leclerc.jpg/450px-Charles-Leclerc.jpg"
+            class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title user-component__title--not-bold">
-              Channel
-            </h4>
-            <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
+            <h4 class="user-component__title">Charles Leclerc</h4>
+            <h6 class="user-component__subtitle">Oh My Gosh!</h6>
           </div>
         </div>
         <div class="user-component__column">
-          <div>
-            <span>2</span>
-            <i class="fa-solid fa-chevron-right fa-xs"></i>
-          </div>
+          <span class="user-component__time">20:58</span>
+          <div class="badge">6</div>
         </div>
       </div>
     </main>
@@ -83,14 +90,14 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i
-          ></a>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
@@ -100,7 +107,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="more.html">
             <div class="nav__notificationdot"></div>
-            <i class="fa-solid fa-ellipsis fa-2x"></i>
+            <i class="fa-solid fa-ellipsis fa-2x"> </i>
           </a>
         </li>
       </ul>
