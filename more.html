@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,68 +24,68 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span>
           <div class="sreen-header__notificationdot"></div>
-          <i class="fa-solid fa-gear fa-lg"></i>
+          <a href="settings.html"> <i class="fa-solid fa-gear fa-lg"></i></a>
         </span>
       </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://media.licdn.com/dms/image/C5103AQHSoaxC3fnBSA/profile-displayphoto-shrink_800_800/0/1580449242333?e=1686182400&v=beta&t=afQnj9jBLHvAnEkF7pmIxc2UyRZyawp6O1RErFUlFGs"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Raphael Cho</h4>
+            <h6 class="user-component__subtitle">
+              +1 787 666 999
+              <div class="user-component__warning">!</div>
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
       <div class="icon-row">
         <div class="icon-row__icon">
-          <i class="fa-solid fa-qrcode"></i>
-          <span>QR code</span>
+          <i class="fa-regular fa-calendar"></i>
+          <span>Calendar</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-regular fa-address-book"></i>
-          <span>Add by Contacs</span>
+          <i class="fa-regular fa-face-smile"></i>
+          <span>Emotions</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-solid fa-fingerprint"></i>
-          <span>Add by ID</span>
+          <i class="fa-solid fa-paint-roller"></i>
+          <span>Themes</span>
         </div>
         <div class="icon-row__icon">
-          <i class="fa-regular fa-envelope"></i>
-          <span>Invite</span>
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+          <span>Account</span>
         </div>
       </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__title">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4>Open Chat</h4>
-          <span
-            >Go to Openchat Home <i class="fa-solid fa-chevron-right fa-xs"></i>
-          </span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h5 class="open-post__title">#BTS</h5>
-            <h6 class="open-hashtags">#bts#army#friends</h6>
-            <div class="open-post__members">
-              <img
-                src="https://media.licdn.com/dms/image/C5103AQHSoaxC3fnBSA/profile-displayphoto-shrink_800_800/0/1580449242333?e=1686182400&v=beta&t=afQnj9jBLHvAnEkF7pmIxc2UyRZyawp6O1RErFUlFGs"
-              />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__member-status">Active</span>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
           </div>
-          <div class="open-post__column">
-            <div class="open-post__photo">
-              <img
-                src="https://i.scdn.co/image/ab6761610000e5eb5704a64f34fe29ff73ab56bb"
-              />
-              <div class="open-post__heart-count">
-                <i class="fa-solid fa-heart fa-xs"></i><span>326</span>
-              </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
             </div>
+            <span class="more-suggestions__icon-text">Kokoa Story</span>
           </div>
         </div>
       </div>
