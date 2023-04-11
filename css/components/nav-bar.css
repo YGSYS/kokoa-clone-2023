@@ -7,6 +7,7 @@
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
+
 .nav__list {
   display: flex;
   justify-content: space-between;
